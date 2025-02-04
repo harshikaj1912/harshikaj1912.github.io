@@ -6,7 +6,7 @@ body {
 .center-text {
     text-align: center;
     font-size: 2em;
-    color: #4b0082; 
+    color: #2f4f4f; /* Dark Slate Gray */
 }
 
 .box {
@@ -33,7 +33,7 @@ th, td {
 }
 
 tr:nth-child(even) {
-    background-color: #e8e8ff; 
+    background-color: #f0f8ff; /* Alice Blue */
 }
 
 #wrapper {
@@ -50,15 +50,15 @@ tr:nth-child(even) {
 }
 
 #wrapper > div:first-of-type { 
-    background-color: #fff0f5; 
+    background-color: #e6f2ff; /* Light Blue */
 }
 
 #wrapper > div:nth-of-type(2) { 
-    background-color: #f0f8ff; 
+    background-color: #e0ffff; /* Light Cyan */
 }
 
 #wrapper > div:nth-of-type(3) { 
-    background-color: #fff0f5; 
+    background-color: #e6f2ff; /* Light Blue */
 }
 
 #div1 {
@@ -72,15 +72,15 @@ tr:nth-child(even) {
     border-radius: 50%;
     display: block;
     margin: 0 auto;
-    border: 2px solid #4b0082; 
+    border: 2px solid #2f4f4f; /* Dark Slate Gray */
 }
 
 .highlight {
-    color: #ff4500; 
+    color: #32cd32; /* Lime Green */
     font-weight: bold;
 }
 
 a:hover {
     color: white;
-    background-color: #8b4513; 
+    background-color: #006400; /* Dark Green */
 }
